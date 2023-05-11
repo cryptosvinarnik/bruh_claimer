@@ -14,7 +14,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 client = Client(headers=HEADERS)
 
 contract = w3.eth.contract(
-    address=Web3.toChecksumAddress("0x4804cc32a4c78dd78eda5227ba1e4b89864ef675"),
+    address=Web3.toChecksumAddress("0x0857832548ab9dd3724943305b1ca5d230341b90"),
     abi=json.loads(open("data/abi.json").read())
 )
 
